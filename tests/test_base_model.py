@@ -12,10 +12,10 @@ from models.base_model import BaseModels
 
 
 class TestBaseModel_instantiation(unittest.TestCase):
-    """ unittest for testing instatiation of the BaseModel
+    """ unittest for testing instantiation of the BaseModel
     class"""
 
-    def test_no_args_instatiates(self):
+    def test_no_args_instantiates(self):
         self.assertEqual(BaseModel, type(BaseModel()))
 
     def test_new_instance_stored_in_objects(self):
